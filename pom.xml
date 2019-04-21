@@ -86,7 +86,7 @@
                                 <suiteXmlFile>testNg.xml</suiteXmlFile>
                             </suiteXmlFiles>
                             <parallel>tests</parallel>
-                            <threadCount>2</threadCount>
+                            <threadCount>3</threadCount>
                         </configuration>
 
                     </plugin>
