@@ -1,7 +1,7 @@
 # selenium-automation
 
 Malzemeler:
--Java 8\n
+-Java 8
 -Selenium
 -TestNG
 -Docker
