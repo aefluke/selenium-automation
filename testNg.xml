@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="selenium-testng" parallel="tests" thread-count="2" verbose="1" >
+    <test name="responseStatus-test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="test.BoutiqueResponseStatusTest"/>
+        </classes>
+    </test>
+    <test name="login-test">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="test.LoginTest"/>
+        </classes>
+    </test>
+    <!--<test name="scroll-load-time-test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="test.ScrollLoadTimeTest"/>
+        </classes>
+    </test>-->
+</suite> <!-- Suite -->

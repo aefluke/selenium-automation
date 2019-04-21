@@ -1,0 +1,10 @@
+EMAIL;PASSWORD;FIELD_VALIDATION_MESSAGE;SCENARIO
+;;Lütfen email adresinizi giriniz.;Email/Þifre girilmediðinde hata mesajý gösterilmeli
+;asd;Lütfen email adresinizi giriniz.;Email girilmediðinde hata mesajý gösterilmeli
+ahmet6yilmaz@gmail.com;;Lütfen þifre giriniz.;Þifre girilmediðinde hata mesajý gösterilmeli
+ahmet6yilmaz@gmail.com;wrongpassword;Hatalý E-Posta / Þifre. Tekrar Deneyin.;Þifre girilmediðinde hata mesajý gösterilmeli
+asdgmail.com;asd;Lütfen email adresinizi giriniz.;@ içermeyen email geçersiz sayýlmalý ve hata mesajý gösterilmeli
+asd@;asd;Lütfen email adresinizi giriniz.;Domain name içermeyen email geçersiz sayýlmalý ve hata mesajý gösterilmeli
+@domain.com;asd;Lütfen email adresinizi giriniz.;Username içermeyen email geçersiz sayýlmalý ve hata mesajý gösterilmeli
+<script>console.log('Danger')</script>@g.com;asd;Lütfen email adresinizi giriniz.;Html tagi içeren email geçersiz sayýlmalý ve hata mesajý gösterilmeli
+#?!@g.com;asd;Lütfen email adresinizi giriniz.;Geçersiz karakter içeren email geçersiz sayýlmalý ve geçersiz email hata mesajý gösterilmeli
